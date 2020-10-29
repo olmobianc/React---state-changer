@@ -17,6 +17,7 @@ class Tick extends React.Component {
         })
     }
 
+    // Runs after the first render() lifecycle
     componentDidMount() {
         this.interval = setInterval(() => this.startCounting(), 1000);
       }
